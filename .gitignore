@@ -1,0 +1,10 @@
+target/
+Deploy/
+.git/
+.idea/
+.vscode/
+*.class
+*.log
+*.war
+.DS_Store
+Thumbs.db

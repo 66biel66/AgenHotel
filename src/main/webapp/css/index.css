@@ -1,0 +1,60 @@
+#containner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Div_Tp {
+    background-color: burlywood;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 140px;
+}
+
+/* H1 */
+#Div_Tp h1 {
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+}
+
+/* MENU */
+#Div_Tp nav {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    display: flex;
+    gap: 30px;
+    width: max-content;
+}
+
+/* LINKS */
+#Div_Tp nav a {
+    margin: 0;
+}
+
+/* MAIN */
+#containner main {
+    position: fixed;
+
+    top: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 600px;
+    padding: 50px;
+
+    background-color: burlywood;
+    border-radius: 20px;
+    text-align: center;
+}
+
+body {
+    background-color: black;
+}
